@@ -96,22 +96,26 @@ align-self: center;
 .header-section-6{
 margin-bottom: 6rem;
 }
-.header-section-7{
+.final-section{
+    background: rgb(207, 206, 201);
+    margin: 0 -2rem -6rem -2rem;
+}
+.last-section{
     display: flex;
     flex-direction: column;
+    align-items: center;  
 }
-.header-section-7 > .img{
-    align-self: center;
-    height: 80px;
-    width: 10px;
-
-    margin: 2rem 0;
-    width: 20%;
+.last-section > .img{
+    margin:3rem 0 2rem 0;
+    height: 50px;
+    width: 50px;
 }
-.header-section-7 > p{
-    align-self: center;
-    margin: 2rem 0 0 0;
 
+.contact-us__split > .first > p,
+.contact-us__split > .second > p,
+.contact-us__split > .last > p{
+   text-align: center;
+   padding: 1rem 0;
 }
 .header-section__last{
     margin:0 3rem;
@@ -123,15 +127,8 @@ margin-bottom: 6rem;
     margin:2rem 2rem;
 }
 .last-section{
-    /* background: #c5c5c2; */
-    margin: 0 -2rem -6rem -2rem;
 }
-.attribution{
-    text-align:center;
-}
-.attribution > a{
-    text-decoration: none;
-}
+
 
 /* CODES FOR DESKTOP DEVICES */
 @media (min-width:40rem) {
